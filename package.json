@@ -1,0 +1,36 @@
+{
+  "name": "temphome",
+  "version": "1.0.0",
+  "description": "A HTML/CSS template for a hotel booking site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viorelrj/tempHome.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "theme"
+  ],
+  "author": "Viorel Rinja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viorelrj/tempHome/issues"
+  },
+  "homepage": "https://github.com/viorelrj/tempHome#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8",
+    "sass": "^1.13.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  }
+}
