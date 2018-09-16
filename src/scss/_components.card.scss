@@ -1,0 +1,19 @@
+.c {
+
+	&-card {
+		display: inline-block;
+		padding: 30px;
+		margin-bottom: 20px;
+		background-color: white;
+
+		max-width: 220px;
+
+		@include shadow();
+		@include border-radius();
+
+		&__row {
+			display: flex;
+			flex-flow: column;
+		}
+	}
+}

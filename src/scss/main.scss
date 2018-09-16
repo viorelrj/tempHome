@@ -1,11 +1,11 @@
-h1 {
-	color: red;
+// @import "libs/bootstrap/bootstrap.scss";
 
-	h2 {
-		color: blue;
+@import "_settings.colors.scss";
+@import "_tools.mixins.scss";
+@import "_generic.normalize.scss";
+@import "_elements.docoument.scss";
+@import "_settings.global.scss";
+@import "_objects.layout.scss";
 
-		line-height: 300px;
-
-		width: 30px;
-	}
-}
+@import "_components.card.scss";
+@import "_components.button.scss";

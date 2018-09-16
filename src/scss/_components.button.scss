@@ -1,0 +1,16 @@
+.c {
+	&-button {
+		background-color: white;
+		font-family: $default-font;
+		border: none;
+		padding: 10px 30px;
+		border-radius: 30px;
+		outline: none;
+
+		@include shadow();
+
+		&:active {
+			outline: none;
+		}
+	}
+}

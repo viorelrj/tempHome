@@ -1,0 +1,38 @@
+.o {
+
+	&-container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+
+		&--center {
+			align-items: center;
+			justify-content: center;
+		}
+
+		&--full {
+			width: 100vw;
+			height: 100vh;
+		}
+
+		&, .background-accent {
+			background-color: $blue;
+		}
+
+	}
+
+	&-spacer {
+		margin-left: 20px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	&-grouper {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+	}
+}
+
