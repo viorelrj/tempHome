@@ -11,6 +11,11 @@
 		@include shadow();
 		@include border-radius();
 
+		&__feed {
+			max-height: 50vh;
+			// overflow-y: scroll;
+		}
+
 		&__row {
 			display: flex;
 			flex-flow: column;

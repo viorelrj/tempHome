@@ -1,0 +1,9 @@
+.c {
+	&-caption {
+		@include shadow-text();
+
+		&--white {
+			color: white;
+		}
+	}
+}

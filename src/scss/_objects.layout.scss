@@ -33,6 +33,10 @@
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
+
+		&--f-column {
+			flex-flow: column;
+		}
 	}
 }
 

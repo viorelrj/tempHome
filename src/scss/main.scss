@@ -1,6 +1,7 @@
 // @import "libs/bootstrap/bootstrap.scss";
 
 @import "_settings.colors.scss";
+@import "_settings.global.scss";
 @import "_tools.mixins.scss";
 @import "_generic.normalize.scss";
 @import "_elements.docoument.scss";
@@ -9,3 +10,6 @@
 
 @import "_components.card.scss";
 @import "_components.button.scss";
+@import "_components.caption.scss";
+
+@import "_utilities.layout.scss"

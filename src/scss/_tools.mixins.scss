@@ -2,6 +2,10 @@
 	box-shadow: -15px 15px 50px 0px rgba(0, 0, 0, 0.20);
 }
 
+@mixin shadow-text() {
+	text-shadow: -2px 2px 10px rgba(0, 0, 0, 0.20);
+}
+
 @mixin border-radius() {
 	border-radius: 5px;
 }
