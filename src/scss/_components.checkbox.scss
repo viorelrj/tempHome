@@ -1,0 +1,29 @@
+.c {
+	&-checkbox {
+		position: relative;
+		display: flex;
+		align-items: center;
+
+		&__handler {
+			margin-right: 10px;
+			height: 10px;
+			width: 10px;
+
+			border-radius: 50%;
+			border: 1px solid $blue;
+
+			@include transition(background-color, 0.1s);
+		}
+
+		//Hiding the default broser checkbox
+		input {
+			position: absolute;
+			opacity: 0;
+			cursor: pointer;
+
+			&:checked ~ .c-checkbox__handler {
+				background-color: $blue;
+			}
+		}
+	}
+}

@@ -1,5 +1,5 @@
 @mixin shadow() {
-	box-shadow: -15px 15px 50px 0px rgba(0, 0, 0, 0.20);
+	box-shadow: -15px 5px 50px 0px rgba(0, 0, 0, 0.20);
 }
 
 @mixin shadow-text() {
@@ -8,4 +8,8 @@
 
 @mixin border-radius() {
 	border-radius: 5px;
+}
+
+@mixin transition($property, $duration: 0.3s) {
+	transition: $property $duration ease-in-out;
 }

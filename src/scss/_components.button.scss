@@ -2,6 +2,8 @@
 	&-button {
 		background-color: white;
 		font-family: $default-font;
+		color: #000;
+		text-decoration: none;
 		border: none;
 		padding: 10px 30px;
 		border-radius: 30px;
@@ -12,5 +14,7 @@
 		&:active {
 			outline: none;
 		}
+
+		
 	}
 }

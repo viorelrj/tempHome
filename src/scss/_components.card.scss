@@ -11,6 +11,13 @@
 		@include shadow();
 		@include border-radius();
 
+		&__title {
+			display: block;
+
+			font-weight: 700;
+			color: $blue;
+		}
+
 		&__feed {
 			max-height: 50vh;
 			// overflow-y: scroll;

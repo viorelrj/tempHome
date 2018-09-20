@@ -3,7 +3,13 @@
 		flex-flow: column;
 	}
 
-	&-push-b-30 {
-		margin-bottom: 30px;
+	&-push-b{
+		&-20 {
+			margin-bottom: 20px;
+		}
+
+		&-30 {
+			margin-bottom: 30px;
+		}
 	}
 }
